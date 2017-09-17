@@ -46,6 +46,17 @@ figcaption{
 }
 
 /*Psuedo class selector*/
+#details a:link, #details a:visited{/*the "a:link" part is the psuedo selector, 
+                the first part is really a descendant selector*/
+  color: black;
+  text-decoration: none;
+}
 
+#details a:hover{
+  color: black;
+  text-decoration: underline;
+}
 
-
+#details a:active{
+  color: red;
+}
