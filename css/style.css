@@ -46,7 +46,7 @@ figcaption{
 }
 
 /*Psuedo class selector*/
-#details a:link, #details a:visited{/*the "a:link" part is the psuedo selector, 
+#details a:link, #details a:visited{/*the "a:link" part is the psuedo selector,
                 the first part is really a descendant selector*/
   color: black;
   text-decoration: none;
